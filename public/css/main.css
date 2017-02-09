@@ -1,0 +1,194 @@
+/*CALL IN CUSTOM SCSS VARIABLES*/
+/*MAIN WEBSITE COLORS*/
+/*MAIN FONT TYPES*/
+/*DOUBLE CHECK THESE!*/
+/*RESPONSIVE*/
+/*CALL IN BASE STRUCTURAL ITEMS*/
+/*  START CSS
+*   GLOBAL EDITS
+*/
+h1 {
+  font-family: "Merriweather Sans, sans-serif";
+  font-size: 42px;
+  color: #2a2b2a; }
+  h1 a {
+    color: #2a2b2a;
+    text-decoration: none; }
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #2a2b2a; }
+  h2 a,
+  h3 a,
+  h4 a,
+  h5 a,
+  h6 a {
+    text-decoration: none; }
+
+h2 {
+  font-family: "Merriweather Sans, sans-serif";
+  font-size: 36px; }
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 36px; }
+
+.header-text {
+  font-size: 45px;
+  text-transform: uppercase; }
+
+.sub-text {
+  font-size: 14px;
+  line-height: 28px;
+  padding-left: 15px;
+  border-left: 5px solid #ebb3a9; }
+
+.header-right {
+  padding-bottom: 45px; }
+
+p {
+  font-size: 16px;
+  color: #2a2b2a; }
+  p a {
+    font-size: 16px;
+    color: #ebb3a9;
+    text-decoration: none; }
+  p a:hover {
+    text-decoration: none;
+    color: #2a2b2a; }
+
+a {
+  text-decoration: none; }
+
+/*
+*
+* MAIN CONTENT
+*
+*/
+body {
+  margin: 0 auto;
+  width: 100%;
+  height: auto; }
+
+section {
+  padding-top: 45px;
+  padding-bottom: 45px; }
+  section .top-section,
+  section .bottom-section {
+    padding-top: 45px;
+    padding-bottom: 45px; }
+
+.crx-center-align {
+  float: left;
+  padding-top: 45px;
+  margin-bottom: 35px; }
+  .crx-center-align h1,
+  .crx-center-align h3.sub-text {
+    text-transform: uppercase; }
+  .crx-center-align h3.sub-text {
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    padding-left: 25%;
+    padding-right: 25%;
+    line-height: 25px; }
+
+/*CALL IN THEME COMPONENTS*/
+/*
+*
+* MAIN NAVIGATION
+*
+*/
+#crx-main-nav.navigation {
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 250px;
+  height: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: fixed;
+  background-color: #2a2b2a;
+  box-shadow: 0 0 0 0 transparent; }
+  #crx-main-nav.navigation .logo {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 45px; }
+  #crx-main-nav.navigation nav ul {
+    padding-left: 0;
+    text-align: center; }
+    #crx-main-nav.navigation nav ul li {
+      list-style: none;
+      width: 100%;
+      padding: 0 20px;
+      height: auto; }
+      #crx-main-nav.navigation nav ul li a {
+        width: 100%;
+        float: left;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 18px;
+        color: #eaeaea; }
+      #crx-main-nav.navigation nav ul li a:hover {
+        background: #ebb3a9;
+        text-decoration: none; }
+
+/*END MAIN NAVIGATION*/
+/*MAIN SLIDER*/
+#main-slider {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  background-size: cover; }
+  #main-slider #carousel-main .carousel-control.left,
+  #main-slider #carousel-main .carousel-control.right {
+    background-image: none !important; }
+  #main-slider #carousel-main .carousel-control:hover {
+    opacity: none !important; }
+
+/*BUILD OUT THE THEME*/
+/*
+*
+* MAIN CONTENT SECTION
+*
+*/
+.wrapper-full {
+  width: 100%;
+  max-width: 100%;
+  padding-left: 250px;
+  overflow: hidden;
+  margin: 0 !important;
+  background-color: #eaeaea; }
+
+.crx-content {
+  /*END #OUR-STORY*/ }
+  .crx-content #our-story {
+    padding-top: 0; }
+    .crx-content #our-story .top-section {
+      background-image: url(../../images/background-images/_NS74599.jpg);
+      background-position: top left;
+      background-size: cover;
+      text-align: center; }
+    .crx-content #our-story .bottom-section .col-md-6 {
+      padding-left: 32px;
+      padding-right: 32px; }
+    .crx-content #our-story .bottom-section .ambers-section,
+    .crx-content #our-story .bottom-section .dathans-section {
+      float: left;
+      width: 100%;
+      height: auto;
+      padding-top: 45px;
+      padding-bottom: 85px; }
+  .crx-content #bridal-party {
+    padding-left: 15px;
+    padding-right: 15px; }
+    .crx-content #bridal-party .bridesmaid-bio {
+      text-align: center; }
+      .crx-content #bridal-party .bridesmaid-bio h4 {
+        text-transform: uppercase; }
+
+/*MAKE THE THEME RESPONSIVE*/

@@ -1,0 +1,10 @@
+/*CALL IN CUSTOM SCSS VARIABLES*/
+@import "abstract/variables";
+/*CALL IN BASE STRUCTURAL ITEMS*/
+@import "base/globals";
+/*CALL IN THEME COMPONENTS*/
+@import "theme/components";
+/*BUILD OUT THE THEME*/
+@import "theme/build";
+/*MAKE THE THEME RESPONSIVE*/
+@import "theme/responsive";

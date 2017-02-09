@@ -1,0 +1,30 @@
+{
+  "name": "the-one",
+  "version": "1.0.0",
+  "description": "wordpress theme the one",
+  "main": "index.php",
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/main.scss public/css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "/theone"
+  },
+  "keywords": [
+    "wordpress",
+    "theme",
+    "design",
+    "clean"
+  ],
+  "author": "dathan cruz",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "node-sass": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "sass-lint": "^1.10.2"
+  }
+}

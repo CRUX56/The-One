@@ -1,0 +1,116 @@
+/*  START CSS
+*   GLOBAL EDITS
+*/
+
+h1{
+  font-family: $display-font;
+  font-size: 42px;
+  color: $onyx-black;
+
+  a{
+    color: $onyx-black;
+    text-decoration: none;
+  }
+}
+
+h2,
+h3,
+h4,
+h5,
+h6{
+  color: $onyx-black;
+
+  a{
+    text-decoration: none;
+  }
+
+}
+
+h2{
+  font-family: $display-font;
+  font-size: 36px;
+ }
+
+h3{
+  font-family: $normal-font;
+  font-size: 36px;
+}
+
+.header-text{
+  font-size: 45px;
+  text-transform: uppercase;
+}
+.sub-text{
+  font-size: 14px;
+  line-height: 28px;
+  padding-left: 15px;
+  border-left: 5px solid $blush-pink;
+}
+
+.header-right{
+  padding-bottom: 45px;
+}
+
+p{
+  font-size: 16px;
+  color: $onyx-black;
+
+  a{
+    font-size: 16px;
+    color: $blush-pink;
+    text-decoration: none;
+  }
+
+  a:hover{
+    text-decoration: none;
+    color: $onyx-black;
+  }
+
+}
+
+a{
+  text-decoration: none;
+}
+
+/*
+*
+* MAIN CONTENT
+*
+*/
+
+body{
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+section{
+  padding-top: 45px;
+  padding-bottom: 45px;
+  .top-section,
+  .bottom-section{
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+}
+
+.crx-center-align{
+
+  float: left;
+  padding-top: 45px;
+  margin-bottom: 35px;
+
+  h1,
+  h3.sub-text{
+    text-transform: uppercase;
+  }
+
+  h3.sub-text{
+    font-size: 18px;
+    font-family: $normal-font;
+    padding-left: 25%;
+    padding-right: 25%;
+    line-height: 25px;
+  }
+
+}

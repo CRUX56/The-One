@@ -1,0 +1,67 @@
+
+/*
+*
+* MAIN CONTENT SECTION
+*
+*/
+
+.wrapper-full{
+
+  width: 100%;
+  max-width: 100%;
+  padding-left: 250px;
+  overflow: hidden;
+  margin: 0 !important;
+  background-color: $basic-white;
+
+}
+
+.crx-content{
+
+  #our-story{
+
+    padding-top: 0;
+
+    .top-section{
+      background-image: url(../../images/background-images/_NS74599.jpg);
+      background-position: top left;
+      background-size: cover;
+      text-align: center;
+    }
+
+    .bottom-section{
+
+      .col-md-6{
+        padding-left: 32px;
+        padding-right: 32px;
+       }
+
+       .ambers-section,
+       .dathans-section{
+         float: left;
+         width: 100%;
+         height: auto;
+         padding-top: 45px;
+         padding-bottom: 85px;
+       }
+
+    }
+
+  }/*END #OUR-STORY*/
+
+  #bridal-party{
+    padding-left: 15px;
+    padding-right: 15px;
+
+    .bridesmaid-bio{
+      text-align: center;
+
+      h4{
+        text-transform: uppercase;
+      }
+
+    }
+
+  }
+
+}
