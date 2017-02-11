@@ -15,7 +15,10 @@
   padding-right: 15px;
   position: fixed;
   background-color: $onyx-black;
-  box-shadow: 0 0 0 0 rgba(0,0,0,0);
+  background-image: url(../../images/background-images/navigation-bar-background.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+  box-shadow: $black-box-shadow;
 
   .logo{
     width: 100%;
@@ -64,6 +67,14 @@
   }
 
 }/*END MAIN NAVIGATION*/
+
+.mobile-nav{
+
+  /*DISPLAY NONE ON DESKTOP, TABLET, SMALL DESKTOPS*/
+
+  display: none;
+
+}
 
 /*MAIN SLIDER*/
 #main-slider{

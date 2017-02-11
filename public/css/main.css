@@ -36,6 +36,10 @@ h3 {
   font-family: "Open Sans", sans-serif;
   font-size: 36px; }
 
+img {
+  width: 100%;
+  height: auto; }
+
 .header-text {
   font-size: 45px;
   text-transform: uppercase; }
@@ -111,6 +115,9 @@ section {
   padding-right: 15px;
   position: fixed;
   background-color: #2a2b2a;
+  background-image: url(../../images/background-images/navigation-bar-background.png);
+  background-position: top left;
+  background-repeat: no-repeat;
   box-shadow: 0 0 0 0 transparent; }
   #crx-main-nav.navigation .logo {
     width: 100%;
@@ -138,6 +145,10 @@ section {
         text-decoration: none; }
 
 /*END MAIN NAVIGATION*/
+.mobile-nav {
+  /*DISPLAY NONE ON DESKTOP, TABLET, SMALL DESKTOPS*/
+  display: none; }
+
 /*MAIN SLIDER*/
 #main-slider {
   width: 100%;
@@ -167,22 +178,26 @@ section {
 .crx-content {
   /*END #OUR-STORY*/ }
   .crx-content #our-story {
-    padding-top: 0; }
+    padding-top: 0;
+    /*END .BUTTOM-SECTION*/ }
     .crx-content #our-story .top-section {
-      background-image: url(../../images/background-images/_NS74599.jpg);
-      background-position: top left;
+      background-image: url(../../images/background-images/section-backgrounds-our-story.jpg);
+      background-position: center;
       background-size: cover;
       text-align: center; }
-    .crx-content #our-story .bottom-section .col-md-6 {
-      padding-left: 32px;
-      padding-right: 32px; }
-    .crx-content #our-story .bottom-section .ambers-section,
-    .crx-content #our-story .bottom-section .dathans-section {
-      float: left;
-      width: 100%;
-      height: auto;
-      padding-top: 45px;
-      padding-bottom: 85px; }
+    .crx-content #our-story .bottom-section {
+      background-color: #eaeaea; }
+      .crx-content #our-story .bottom-section .col-md-6 {
+        padding-left: 32px;
+        padding-right: 32px; }
+      .crx-content #our-story .bottom-section .ambers-section,
+      .crx-content #our-story .bottom-section .dathans-section {
+        float: left;
+        width: 100%;
+        height: auto;
+        padding-top: 45px;
+        padding-bottom: 85px;
+        min-height: 1080px; }
   .crx-content #bridal-party {
     padding-left: 15px;
     padding-right: 15px; }
